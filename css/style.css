@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.bg-body-light {
+    background-color:white;
+    margin: 0;
+}
+
+.navbar-nav {
+    margin-left: 620px;
+}
+
+.navbar-brand {
+    margin-left: 130px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    margin-right: 20px; 
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-nav .nav-link:last-child {
+    margin-right: 0; 
+}
+
+.navbar-nav .nav-link:hover {
+    background:#aeaeaf;
+    color: white;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: #aeaeaf;
+}
+.navbar-toggler span{
+    color: #aeaeaf;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.home .img{
+    flex: 1 1 300px;
+    margin-right: 130px;
+}
+.home .img img{
+    width: 120%;
+    animation: c 5s linear infinite;
+    
+}
+@keyframes c{
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+}
+.home .content{
+    flex: 1 1 400px;
+    margin-top: 30px;
+}
+.content h1{
+    margin-left: 42px;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: -1px 0px 0px black;
+}
+.content h1 span{
+    color: #aeaeaf;
+    text-shadow: 1px 1px 1px black;
+    font-size: 100px;
+    font-weight: bold;
+}
+.content p{
+    margin-left: 42px;
+    font-family: 'Lato', sans-serif;
+}
+#btn{
+    margin-left: 42px;
+}
+#btn button{
+    width: 150px;
+    height: 32px;
+    letter-spacing: 3px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+#btn button:hover{
+    background-color:#aeaeaf;
+    color: white;
+    border: none;
+}
+#btn span{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media screen and (max-width:1200px){
+    .home-section{
+        height: 90vh;
+    }
+}
+@media screen and (max-width:799px){
+    .home-section{
+        height: 140vh;
+    }
+}
+@media screen and (max-width:550px){
+    .home-section{
+        height: 110vh;
+    }
+}
+@media screen and (max-width:420px){
+    .content h1 span{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width:320px){
+    .content h1{
+        font-size: 50px;
+    }
+    .content h1 span{
+        font-size: 60px;
+    }
+}
+.about{
+    padding: 50px;
+    margin-top: 10px;
+    background: #f9f9f9;
+    font-family: 'Lato', sans-serif;
+}
+.about .card{
+    border-radius: 10px;
+}
+.about .card img{
+    border-radius: 10px;
+}
+.about h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.about h1 span{
+    color: #aeaeaf;
+}
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about p{
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media (max-width:765px){
+    .about{
+        padding: 0;
+    }
+}
+#footer{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    background: #f9f9f9;
+}
+#footer h1{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+    
+}
+#footer h1 span{
+    color: #aeaeaf;
+    
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background: #aeaeaf;
+}
+#team{
+    padding: 50px;
+    margin-top: 10px;
+    background: #f9f9f9;
+    font-family: 'Lato', sans-serif;
+}
+#team h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+    color: black;
+}
+#team h1 span{
+    color: #aeaeaf;
+}
+#team .card{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#team .card:hover{
+    background-color: #aeaeaf;
+}
+#team .card h3{
+    font-weight: bold;
+    text-shadow: 0px 0px 0.5px black;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 30px;
+}
+#team .card p{
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+#imp{
+    padding-top: 100px;
+}
+#imp h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+#imp h1 span{
+    color: #aeaeaf;
+}
+#imp h3{
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+#imp p{
+    text-align: justify;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+.imp .card {
+    transition: transform 0.3s ease;
+}
+
+.imp .card:hover {
+    transform: scale(1.1);
+}
+
+.book{
+    background: #f9f9f9;
+    padding: 50px;
+}
+.main-text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.main-text h1 span{
+    color: #aeaeaf;
+}
+.book .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book .row{
+    margin-top: 30px;
+}
+.book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 200px;
+}
+.book .submit{
+    width: 120px;
+    font-size: 16px;
+    font-weight: 550;
+    background: black;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.book .submit:hover{
+    background-color:#aeaeaf;
+    color: white;
+    border: none;
+}
+@media (max-width:765px){
+    .book{
+        padding: 0;
+    }
+    .main-text h1{
+        padding: 20px;
+    }
+}
+.course .card{
+    border-radius: 5px;
+    border: 1px solid #aeaeaf;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    margin-top: 10%;
+}
+.course .card img{
+    border-radius: 5px;
+}
+.course .card .card-body{
+    background: transparent;
+}
+.course .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.course .card .card-body p{
+    font-size: 15px;
+}
+
+.course .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background:black;
+    color: white;
+    border-radius: 5px;
+}
+.course .card .card-body a:hover{
+    background-color:#aeaeaf;
+    color: white;
+    border: none;
+}
+@media screen and (max-width: 767px) {
+    .navbar-nav {
+        margin-left: 0;
+        padding: 0;
+        text-align: left; 
+    }
+
+    .navbar-nav .nav-link {
+        display: block; 
+        
+    }
+}

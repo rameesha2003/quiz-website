@@ -1,0 +1,189 @@
+html,body,div,h1,h2,h3,h4,h5,h6,p,code,small,strike,strong,sub,sup,b,u,i{
+    
+    font-family: 'Lato', sans-serif;;
+      border:0px;
+      font-size:100%;
+      font:inherit;
+      vertical-align:baseline;
+      margin:0;padding:0;
+    
+    
+    } 
+    .remark-excellent {
+      color: green;
+      font: bold 35px 'Roboto Slab', serif;
+    }
+    
+    .remark-good {
+      color: darkgreen;
+      font: bold 35px 'Roboto Slab', serif;
+    }
+    
+    .remark-improve {
+      color: orange;
+      font: bold 35px 'Roboto Slab', serif;
+    }
+    
+    .remark-bad {
+      color: red;
+      font: bold 35px 'Roboto Slab', serif;
+    }
+    #backBtn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 150px;
+      font-size: 16px;
+      font-weight: 550;
+      background: white;
+      color: black !important;
+      padding: 10px;
+      border: none;
+      transition: 0.5s;
+    }
+    
+    #backBtn:hover {
+      background-color: #aeaeaf;
+      color: white !important;
+    }
+    
+    article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    
+      display:block;
+    
+    
+    } 
+    
+    body{
+    
+      background:url(bg.jpg);
+      line-height:2; 
+      font-family: 'Lato', sans-serif;
+      border: black;
+      
+    } 
+          
+    ol,ul{
+    
+      list-style:none;
+      
+    }
+    
+    strong{
+    
+      font-weight:700;
+    
+    }
+    
+    #question{
+    
+      color: black;
+      font-size: 35px;
+    
+    }
+    
+    #frame {
+      max-width: 1000px;
+      width: 800px;
+      border: 3px solid #ccc;
+      background: white;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+    
+    h1{
+      
+      font-family: 'Lato', sans-serif;
+      color: #aeaeaf;
+      text-shadow: 2px 2px 2px black;
+      font-weight: bold;
+      font-size: 40px;
+      text-align:left;
+      border-bottom:1px solid #999;
+      padding:0;width:auto
+    
+    }
+    
+    
+    
+    h2{
+    
+      font: bold 1.3em/1.2em 'Roboto Slab', serif;
+      padding:0;
+      text-align:center;
+      margin:20px 0;
+    
+    }
+    
+    
+    
+    p.pager{
+    
+      margin:5px 0 5px;
+      font:bold 15px 'Roboto Slab', serif;
+      color: #aeaeaf;
+      
+    }
+    
+    
+    #choice-block{
+    
+      background-color: white;
+      display:block;
+      list-style:none;
+      margin:0;
+      padding:0;
+    
+    }
+    
+    
+    #submitbutton{
+    
+      width: 200px;
+      font-size: 16px;
+      font-weight: 550;
+      background: black;
+      color: white !important;
+      margin-top: 10px;
+      transition: 0.5s;
+      margin: 0 auto;
+      padding: 2px;
+    
+    }
+    
+    
+    
+    #submitbutton:hover {
+      background-color:#aeaeaf;
+      color: white !important;
+      border: none;
+    
+    }
+    
+    
+    .choice-box {
+      background: white;
+      display: block;
+      text-align: center;
+      margin: 9px auto;
+      margin-left: 3%;
+      margin-right: 3%;
+      padding: 10px 0;
+      border: 1px solid #999;
+      font: 'Roboto Slab', serif;
+      font-weight: 600;
+      transition: transform 0.3s; /* Add transition for smoother effect */
+  }
+  
+  .choice-box:hover {
+      transform: scale(1.05); /* Zoom in when hovered */
+  }
+  
+  .choice-box.clicked {
+      background: #aeaeaf;
+      color: white;
+  }
+  
